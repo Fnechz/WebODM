@@ -1,0 +1,33 @@
+{% extends "app/plugins/templates/base.html" %}
+{% block content %}
+    <title>Predictive Agric</title>
+</head>
+<body>
+    <h1>Problematic Areas Detection</h1>
+    <iframe src="http://127.0.0.1:5000/" width="1100" height="650"></iframe>
+</body>
+{% endblock %}
+
+
+<!-- <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Process Indices</button>
+</form> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Processing</title>
+</head>
+<body>
+    <h2>Image Processing</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Process Image</button>
+    </form>
+</body>
+</html> -->
